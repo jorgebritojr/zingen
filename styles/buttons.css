@@ -25,11 +25,12 @@
 
   -webkit-background-clip: initial;
   background-clip: initial;
+  color: var(--btn-color);
   
 }
 
 .btn-sm {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
 }
 .btn-md {
@@ -49,7 +50,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 0.09375rem;
     background-color: var(--bg-color);
   }
   &::after {
